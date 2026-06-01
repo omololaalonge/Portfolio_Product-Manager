@@ -1,13 +1,13 @@
 const roles = [
   {
-    title: "IT Project Manager / Product Delivery Lead",
-    company: "WyIdPytch / 51 Lex Publishing & Distribution",
+    title: "Product Delivery Lead / Junior Product Owner",
+    company: "Wyld Pytch / 51 Lex Publishing & Distribution",
     meta: "Remote, Oct 2024 - Present",
     bullets: [
-      "Coordinate development and delivery of digital products that support music publishing and distribution operations.",
-      "Translate business requirements into product features and functional specifications for developers.",
-      "Align business and technical stakeholders, clarifying requirements and maintaining focus on product goals.",
-      "Support feature prioritization and maintain product and operational documentation for internal tools and platforms.",
+      "Owned delivery roadmaps for music publishing and distribution platforms, translating business goals into scoped MVPs and prioritized feature backlogs.",
+      "Prioritized feature requests, defects, and release milestones with stakeholders to keep engineering focused on launch-critical work.",
+      "Designed scalable workflows for product documentation, stakeholder updates, and cross-functional handoffs across remote teams.",
+      "Acted as the bridge between business users, technical stakeholders, and developers to clarify acceptance criteria and reduce delivery ambiguity.",
     ],
   },
   {
@@ -15,10 +15,10 @@ const roles = [
     company: "Bincom ICT Solutions",
     meta: "Remote, Nov 2023 - Sept 2024",
     bullets: [
-      "Analyzed large datasets to support business decision-making and provide actionable insights to internal stakeholders.",
-      "Built dashboards in Power BI and Excel to improve reporting visibility and data-informed operational decisions.",
-      "Developed automated workflows that reduced manual reporting effort by ~30%, improving reporting speed and process efficiency.",
-      "Structured data outputs and reporting artefacts to improve clarity for non-technical users and decision-makers.",
+      "Transformed raw operational datasets into decision-ready insights for internal stakeholders and product-adjacent business teams.",
+      "Built Power BI and Excel dashboards that improved reporting visibility and helped teams spot performance trends faster.",
+      "Designed automated workflows that reduced manual reporting effort by ~30%, improving reporting speed and process consistency.",
+      "Structured reporting artifacts for non-technical users, making analytical outputs easier to interpret and act on.",
     ],
   },
   {
@@ -26,9 +26,9 @@ const roles = [
     company: "Digital Echoes (UK)",
     meta: "Remote, Feb 2022 - Aug 2023",
     bullets: [
-      "Performed data analysis and visualization to support client reporting, operational reviews, and strategic decision-making.",
-      "Conducted exploratory data analysis to identify trends, patterns, and insights relevant to business objectives.",
-      "Developed clear reporting outputs that improved communication between analytical workstreams and business stakeholders.",
+      "Optimized client reporting workflows by turning exploratory analysis into clear visual outputs for operational and strategic reviews.",
+      "Identified patterns, data gaps, and performance signals that helped stakeholders define sharper business priorities.",
+      "Designed scalable reporting templates that improved communication between analytical workstreams and business stakeholders.",
     ],
   },
 ];
@@ -38,7 +38,7 @@ export default function Experience() {
     <section id="experience" className="border-y border-line bg-page">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
         <p className="section-kicker">Experience</p>
-        <h2 className="section-title mt-3">Remote delivery, stakeholder alignment, and data-informed operations.</h2>
+        <h2 className="section-title mt-3">Ownership verbs, delivery outcomes, and product-facing judgment.</h2>
         <div className="mt-10 space-y-5">
           {roles.map((role) => (
             <article key={`${role.company}-${role.meta}`} className="card p-6 sm:p-8">

@@ -4,26 +4,24 @@ export default function About() {
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-16 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:py-20">
         <div>
           <p className="section-kicker">About</p>
-          <h2 className="section-title mt-3">Clear delivery, practical product thinking.</h2>
+          <h2 className="section-title mt-3">Product ownership discipline with delivery urgency.</h2>
         </div>
         <div className="space-y-5 text-base leading-8 text-muted">
           <p>
-            Agile product delivery professional with experience supporting the
-            planning, documentation, and execution of digital products in fully
-            remote environments.
+            Junior Product Owner and Product Operations candidate with a delivery
+            background across digital media, music technology, data reporting,
+            and remote product teams.
           </p>
           <p>
-            Skilled in translating business requirements into product features
-            and functional specifications, collaborating with developers, and
-            aligning business and technical stakeholders around clear delivery
-            goals.
+            I translate stakeholder requirements into product scope, user
+            stories, acceptance criteria, delivery roadmaps, and clean operating
+            workflows so engineering teams can focus on the highest-value work.
           </p>
           <p>
-            Background across music technology and data-focused roles, supporting
-            feature prioritization, product documentation, stakeholder
-            communication, and digital platform delivery. Scrum Master Certified
-            and currently pursuing Scrum Product Owner Certified, targeting
-            junior Product Owner, Product Operations, and Agile Delivery roles.
+            My edge is the mix of product thinking, agile delivery, and data
+            literacy: I can prioritize a backlog, explain trade-offs to
+            stakeholders, and use reporting workflows to keep decisions grounded
+            in evidence.
           </p>
         </div>
       </div>

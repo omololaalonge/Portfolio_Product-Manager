@@ -28,7 +28,15 @@ export default function Header() {
               </a>
             ))}
           </div>
-          <ThemeToggle />
+          <div className="flex shrink-0 items-center gap-2">
+            <a
+              href="/omolola-alonge-product-portfolio.pdf"
+              className="rounded-md bg-blue-calm px-3 py-2 text-sm font-semibold text-white shadow-sm transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-blue-calm focus:ring-offset-4 focus:ring-offset-surface dark:text-slate-950"
+            >
+              Download CV
+            </a>
+            <ThemeToggle />
+          </div>
         </div>
       </nav>
     </header>

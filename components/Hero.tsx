@@ -1,7 +1,8 @@
 const badges = [
   "Scrum Master Certified (SMC)",
   "SPOC - In Progress",
-  "Data & BI background",
+  "Product Ops ready",
+  "Data & automation background",
 ];
 
 export default function Hero() {
@@ -11,16 +12,16 @@ export default function Hero() {
         <div className="max-w-4xl">
           <p className="section-kicker">Product Owner Portfolio</p>
           <h1 className="mt-4 text-4xl font-semibold tracking-normal text-ink sm:text-5xl lg:text-6xl">
-            Omolola Alonge
+            Omolola Alonge | Junior Product Owner • Product Delivery • Agile Operations
           </h1>
           <p className="mt-4 text-xl font-medium text-blue-calm sm:text-2xl">
-            Junior Product Owner | Product Delivery | Agile Operations
+            Cross-functional problem solver for product teams that need clarity, momentum, and measurable delivery.
           </p>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-muted">
-            Agile product delivery professional with experience supporting the
-            planning, documentation, and execution of digital products in remote
-            environments. I translate business needs into clear features and help
-            teams ship the right work, faster.
+            I bridge the gap between business data, stakeholder requirements,
+            and engineering execution by turning ambiguous needs into scoped
+            MVPs, prioritized backlogs, clear user stories, and launch-ready
+            delivery plans.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             {badges.map((badge) => (

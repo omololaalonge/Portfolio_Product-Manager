@@ -26,3 +26,6 @@ pnpm-debug.log*
 
 # typescript
 *.tsbuildinfo
+
+# local backups
+portfolio_backup_version.txt
