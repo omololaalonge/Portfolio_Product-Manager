@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f7f9fc;
+  color: #172033;
+}
+
+section {
+  scroll-margin-top: 96px;
+}
+
+::selection {
+  background: #dbeafe;
+  color: #172033;
+}
+
+.section-title {
+  @apply text-2xl font-semibold tracking-normal text-ink sm:text-3xl;
+}
+
+.section-kicker {
+  @apply text-sm font-semibold uppercase tracking-[0.18em] text-blue-calm;
+}
+
+.card {
+  @apply rounded-lg border border-line bg-surface shadow-soft;
+}
+
+.pill {
+  @apply inline-flex items-center rounded-full border border-blue-soft bg-white px-3 py-1 text-sm font-medium text-ink;
+}

@@ -1,0 +1,27 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Omolola Alonge - Product Owner Portfolio",
+  description:
+    "Portfolio for Omolola Alonge, a junior Product Owner and agile product delivery professional supporting digital product planning, documentation, and execution.",
+  openGraph: {
+    title: "Omolola Alonge - Product Owner Portfolio",
+    description:
+      "Junior Product Owner focused on product delivery, agile operations, stakeholder alignment, and data-informed digital products.",
+    type: "website",
+    locale: "en_NG",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className="font-sans antialiased">{children}</body>
+    </html>
+  );
+}
