@@ -28,7 +28,8 @@ const skillGroups = [
     skills: [
       "Agile",
       "Jira",
-      "Zapier dashboard reporting",
+      "Zapier",
+      "Dashboard reporting",
       "Data analysis",
       "Power BI",
       "Excel",
