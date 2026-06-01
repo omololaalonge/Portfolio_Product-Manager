@@ -7,7 +7,7 @@ const items = [
 
 export default function EducationCerts() {
   return (
-    <section id="education" className="bg-white">
+    <section id="education" className="bg-surface">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
         <p className="section-kicker">Education & Certs</p>
         <h2 className="section-title mt-3">Education and professional development.</h2>

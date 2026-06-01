@@ -39,7 +39,7 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="border-y border-line bg-slate-50">
+    <section id="skills" className="border-y border-line bg-page">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
         <p className="section-kicker">Skills</p>
         <h2 className="section-title mt-3">Product delivery skills recruiters can scan quickly.</h2>

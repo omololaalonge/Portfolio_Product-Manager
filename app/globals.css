@@ -4,6 +4,32 @@
 
 :root {
   color-scheme: light;
+  --color-ink: 23 32 51;
+  --color-muted: 95 111 134;
+  --color-line: 217 225 236;
+  --color-page: 247 249 252;
+  --color-surface: 255 255 255;
+  --color-elevated: 255 255 255;
+  --color-blue-calm: 37 99 235;
+  --color-blue-soft: 219 234 254;
+  --color-purple-soft: 237 233 254;
+  --color-purple-accent: 124 58 237;
+  --shadow-soft: 0 18px 50px rgba(23, 32, 51, 0.08);
+}
+
+.dark {
+  color-scheme: dark;
+  --color-ink: 238 244 255;
+  --color-muted: 176 188 207;
+  --color-line: 51 65 85;
+  --color-page: 11 18 32;
+  --color-surface: 15 23 42;
+  --color-elevated: 20 31 53;
+  --color-blue-calm: 125 166 255;
+  --color-blue-soft: 30 54 99;
+  --color-purple-soft: 57 43 91;
+  --color-purple-accent: 196 181 253;
+  --shadow-soft: 0 18px 50px rgba(0, 0, 0, 0.28);
 }
 
 html {
@@ -11,8 +37,8 @@ html {
 }
 
 body {
-  background: #f7f9fc;
-  color: #172033;
+  background: rgb(var(--color-page));
+  color: rgb(var(--color-ink));
 }
 
 section {
@@ -33,9 +59,9 @@ section {
 }
 
 .card {
-  @apply rounded-lg border border-line bg-surface shadow-soft;
+  @apply rounded-lg border border-line bg-elevated shadow-soft;
 }
 
 .pill {
-  @apply inline-flex items-center rounded-full border border-blue-soft bg-white px-3 py-1 text-sm font-medium text-ink;
+  @apply inline-flex items-center rounded-full border border-blue-soft bg-surface px-3 py-1 text-sm font-medium text-ink;
 }

@@ -1,6 +1,6 @@
 export default function ContactFooter() {
   return (
-    <footer id="contact" className="border-t border-line bg-ink text-white">
+    <footer id="contact" className="border-t border-line bg-[#111827] text-white dark:bg-[#050b16]">
       <div className="mx-auto max-w-6xl px-5 py-12 sm:px-6">
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
           <div>

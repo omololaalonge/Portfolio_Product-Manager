@@ -6,7 +6,7 @@ const badges = [
 
 export default function Hero() {
   return (
-    <section className="border-b border-line bg-gradient-to-br from-white via-blue-soft/40 to-purple-soft/50">
+    <section className="border-b border-line bg-gradient-to-br from-surface via-blue-soft/40 to-purple-soft/50">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 sm:py-20 lg:py-24">
         <div className="max-w-4xl">
           <p className="section-kicker">Product Owner Portfolio</p>
@@ -32,7 +32,7 @@ export default function Hero() {
           <div className="mt-9 flex flex-wrap gap-3">
             <a
               href="mailto:lgeojeg@gmail.com"
-              className="rounded-md bg-blue-calm px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-calm focus:ring-offset-4"
+              className="rounded-md bg-blue-calm px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-blue-calm focus:ring-offset-4 focus:ring-offset-surface dark:text-slate-950"
             >
               Email
             </a>
@@ -40,16 +40,16 @@ export default function Hero() {
               href="https://www.linkedin.com/in/omolola-alonge-0908441b5/"
               target="_blank"
               rel="noreferrer"
-              className="rounded-md border border-line bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:border-blue-calm hover:text-blue-calm focus:outline-none focus:ring-2 focus:ring-blue-calm focus:ring-offset-4"
+              className="rounded-md border border-line bg-surface px-5 py-3 text-sm font-semibold text-ink transition hover:border-blue-calm hover:text-blue-calm focus:outline-none focus:ring-2 focus:ring-blue-calm focus:ring-offset-4 focus:ring-offset-surface"
             >
               LinkedIn
             </a>
-            <span className="rounded-md border border-line bg-white px-5 py-3 text-sm font-semibold text-ink">
+            <span className="rounded-md border border-line bg-surface px-5 py-3 text-sm font-semibold text-ink">
               Abuja, Nigeria
             </span>
             <a
               href="/omolola-alonge-product-portfolio.pdf"
-              className="rounded-md bg-purple-accent px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-accent focus:ring-offset-4"
+              className="rounded-md bg-purple-accent px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-purple-accent focus:ring-offset-4 focus:ring-offset-surface dark:text-slate-950"
             >
               Download CV / Portfolio PDF
             </a>

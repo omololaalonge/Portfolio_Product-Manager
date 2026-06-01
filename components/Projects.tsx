@@ -63,7 +63,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-white">
+    <section id="projects" className="bg-surface">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
         <p className="section-kicker">Projects</p>
         <h2 className="section-title mt-3">Selected product and delivery work.</h2>
@@ -108,7 +108,7 @@ export default function Projects() {
             </article>
           ))}
         </div>
-        <aside className="mt-8 rounded-lg border border-line bg-slate-50 p-6">
+        <aside className="mt-8 rounded-lg border border-line bg-page p-6">
           <h3 className="text-lg font-semibold text-ink">More product & analytics work</h3>
           <p className="mt-3 leading-8 text-muted">
             Additional experience includes product delivery and Agile operations

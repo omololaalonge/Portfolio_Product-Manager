@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  darkMode: "class",
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,21 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#172033",
-        muted: "#5f6f86",
-        line: "#d9e1ec",
-        surface: "#ffffff",
+        ink: "rgb(var(--color-ink) / <alpha-value>)",
+        muted: "rgb(var(--color-muted) / <alpha-value>)",
+        line: "rgb(var(--color-line) / <alpha-value>)",
+        page: "rgb(var(--color-page) / <alpha-value>)",
+        surface: "rgb(var(--color-surface) / <alpha-value>)",
+        elevated: "rgb(var(--color-elevated) / <alpha-value>)",
         blue: {
-          calm: "#2563eb",
-          soft: "#dbeafe",
+          calm: "rgb(var(--color-blue-calm) / <alpha-value>)",
+          soft: "rgb(var(--color-blue-soft) / <alpha-value>)",
         },
         purple: {
-          soft: "#ede9fe",
-          accent: "#7c3aed",
+          soft: "rgb(var(--color-purple-soft) / <alpha-value>)",
+          accent: "rgb(var(--color-purple-accent) / <alpha-value>)",
         },
       },
       boxShadow: {
-        soft: "0 18px 50px rgba(23, 32, 51, 0.08)",
+        soft: "var(--shadow-soft)",
       },
     },
   },
