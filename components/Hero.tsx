@@ -11,11 +11,15 @@ export default function Hero() {
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 sm:py-20 lg:py-24">
         <div className="max-w-4xl">
           <p className="section-kicker">Product Owner Portfolio</p>
-          <h1 className="mt-4 text-4xl font-semibold tracking-normal text-ink sm:text-5xl lg:text-6xl">
-            Omolola Alonge | Junior Product Owner • Product Delivery • Agile Operations
+          <h1 className="mt-4 text-5xl font-semibold tracking-normal text-ink sm:text-6xl lg:text-7xl">
+            Omolola Alonge
           </h1>
+          <p className="mt-3 text-lg font-semibold text-blue-calm sm:text-xl lg:text-2xl">
+            Junior Product Owner • Product Delivery • Agile Operations
+          </p>
           <p className="mt-4 text-xl font-medium text-blue-calm sm:text-2xl">
-            Cross-functional problem solver for product teams that need clarity, momentum, and measurable delivery.
+            Cross-functional problem solver for product teams that need clarity,
+            momentum, and measurable delivery.
           </p>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-muted">
             I bridge the gap between business data, stakeholder requirements,
