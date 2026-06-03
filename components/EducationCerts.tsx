@@ -1,7 +1,7 @@
 const items = [
   "B.Sc. Computer Science - University of Abuja, Nigeria (2010).",
   "Scrum Master Certified (SMC) - SCRUMstudy, July 2025.",
-  "Scrum Product Owner Certified (SPOC) - In progress.",
+  "SPOC certification - In progress.",
   "Data Analysis with R Programming - Coursera.",
 ];
 

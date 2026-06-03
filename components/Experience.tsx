@@ -1,6 +1,6 @@
 const roles = [
   {
-    title: "Product Delivery Lead / Junior Product Owner",
+    title: "Project/Product Manager",
     company: "Wyld Pytch / 51 Lex Publishing & Distribution",
     meta: "Remote, Oct 2024 - Present",
     bullets: [
@@ -11,7 +11,7 @@ const roles = [
     ],
   },
   {
-    title: "Junior Data Analyst",
+    title: "Data Analyst",
     company: "Bincom ICT Solutions",
     meta: "Remote, Nov 2023 - Sept 2024",
     bullets: [
@@ -22,7 +22,7 @@ const roles = [
     ],
   },
   {
-    title: "Junior Data Analyst",
+    title: "Data Analyst",
     company: "Digital Echoes (UK)",
     meta: "Remote, Feb 2022 - Aug 2023",
     bullets: [

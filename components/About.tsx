@@ -4,13 +4,12 @@ export default function About() {
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-16 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:py-20">
         <div>
           <p className="section-kicker">About</p>
-          <h2 className="section-title mt-3">Product ownership discipline with delivery urgency.</h2>
+          <h2 className="section-title mt-3">Product strategy, project execution, and delivery urgency.</h2>
         </div>
         <div className="space-y-5 text-base leading-8 text-muted">
           <p>
-            Junior Product Owner and Product Operations candidate with a delivery
-            background across digital media, music technology, data reporting,
-            and remote product teams.
+            Project/Product Manager with a delivery background across digital
+            media, music technology, data reporting, and remote product teams.
           </p>
           <p>
             I translate stakeholder requirements into product scope, user

@@ -8,8 +8,8 @@ export default function ContactFooter() {
               Contact
             </p>
             <h2 className="mt-3 text-2xl font-semibold sm:text-3xl">
-              Interested in Product Owner, Product Operations, or Agile delivery
-              roles in Abuja, remote, or hybrid.
+              Interested in Project/Product Manager, Product Operations, or
+              Agile delivery roles in Abuja, remote, or hybrid.
             </h2>
             <p className="mt-4 max-w-3xl leading-8 text-slate-300">
               PDF portfolio and CV are available on request or via the download
@@ -37,7 +37,7 @@ export default function ContactFooter() {
           </div>
         </div>
         <p className="mt-10 border-t border-white/10 pt-6 text-sm text-slate-400">
-          © {new Date().getFullYear()} Omolola Alonge. Product Owner Portfolio.
+          © {new Date().getFullYear()} Omolola Alonge. Project/Product Manager Portfolio.
         </p>
       </div>
     </footer>

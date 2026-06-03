@@ -1,5 +1,5 @@
 const metrics = [
-  { label: "Role", detail: "Product Delivery Lead / Junior Product Owner" },
+  { label: "Role", detail: "Project/Product Manager" },
   { label: "Timeline", detail: "Dec 2025 - Feb 2026" },
   { label: "Tools Used", detail: "Jira, Confluence, Figma, Slack, GitHub" },
   {
@@ -77,7 +77,7 @@ const supportingProjects = [
     goal:
       "Provide artists with a single, easy-to-share link that aggregates major streaming platforms and improves fan engagement and track discovery.",
     role:
-      "Product Delivery Support / Junior Product Owner working with a remote development team and music business stakeholders.",
+      "Project/Product Manager working with a remote development team and music business stakeholders.",
     responsibilities: [
       "Captured and clarified business requirements from artist relations and marketing teams, translating them into structured product features and functional specifications for developers.",
       "Helped break high-level platform goals into prioritized feature sets, focusing on core flows such as artist onboarding, fan-link generation, and basic performance metrics.",
@@ -158,7 +158,7 @@ export default function Projects() {
                   unmapped user interface defects.
                 </p>
                 <p className="mt-4 leading-8 text-muted">
-                  Stepping into a hybrid Product Owner and Delivery role, I took
+                  Stepping into a hybrid Project/Product Manager and Delivery role, I took
                   ownership of the unstable codebase, triaged a chaotic backlog,
                   managed a high-stakes engineering transition, and drove the
                   product to a successful MVP launch.
@@ -243,7 +243,7 @@ export default function Projects() {
 
             <section aria-labelledby="pillars-heading">
               <h3 id="pillars-heading" className="text-xl font-semibold text-ink">
-                Key Product Ownership Pillars
+                Key Project/Product Management Pillars
               </h3>
               <div className="mt-6 grid gap-4 lg:grid-cols-3">
                 {pillars.map((pillar) => (

@@ -1,4 +1,4 @@
-# Omolola Alonge - Product Owner Portfolio
+# Omolola Alonge - Project/Product Manager Portfolio
 
 A single-page portfolio website for Omolola Alonge, built with Next.js, TypeScript, and Tailwind CSS. The site is optimized for recruiter scanning, static export, GitHub hosting, and Vercel deployment.
 
