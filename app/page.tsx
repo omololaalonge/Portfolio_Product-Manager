@@ -4,6 +4,7 @@ import EducationCerts from "@/components/EducationCerts";
 import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import ProductPhilosophy from "@/components/ProductPhilosophy";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Projects />
         <Experience />
         <EducationCerts />
+        <ProductPhilosophy />
       </main>
       <ContactFooter />
     </>

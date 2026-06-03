@@ -8,13 +8,17 @@ export default function About() {
         </div>
         <div className="space-y-5 text-base leading-8 text-muted">
           <p>
-            Project/Product Manager with a delivery background across digital
-            media, music technology, data reporting, and remote product teams.
+            My experience spans digital media, music technology, and data
+            operations, where I have helped teams move from uncertainty to
+            successful delivery. I specialise in defining MVPs, aligning
+            stakeholders around priorities, and ensuring engineering teams focus
+            on the work that delivers the greatest customer and business value.
           </p>
           <p>
-            I translate stakeholder requirements into product scope, user
-            stories, acceptance criteria, delivery roadmaps, and clean operating
-            workflows so engineering teams can focus on the highest-value work.
+            My background combines product thinking, agile delivery, and data
+            analysis, enabling me to make informed prioritisation decisions,
+            communicate trade-offs clearly, and keep product development
+            grounded in evidence.
           </p>
           <p>
             My edge is the mix of product thinking, agile delivery, and data

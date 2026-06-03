@@ -4,10 +4,10 @@ const roles = [
     company: "Wyld Pytch / 51 Lex Publishing & Distribution",
     meta: "Remote, Oct 2024 - Present",
     bullets: [
-      "Owned delivery roadmaps for music publishing and distribution platforms, translating business goals into scoped MVPs and prioritized feature backlogs.",
-      "Prioritized feature requests, defects, and release milestones with stakeholders to keep engineering focused on launch-critical work.",
-      "Designed scalable workflows for product documentation, stakeholder updates, and cross-functional handoffs across remote teams.",
-      "Acted as the bridge between business users, technical stakeholders, and developers to clarify acceptance criteria and reduce delivery ambiguity.",
+      "Led delivery of digital publishing and distribution products, aligning stakeholders around MVP priorities and supporting successful product launches.",
+      "Established delivery processes that improved visibility, reduced ambiguity, and helped distributed teams execute more effectively.",
+      "Served as the primary link between business and engineering teams, ensuring product decisions remained aligned with strategic objectives.",
+      "Supported product launches through prioritisation, risk management, and stakeholder communication.",
     ],
   },
   {

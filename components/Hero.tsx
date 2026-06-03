@@ -18,14 +18,14 @@ export default function Hero() {
             Project/Product Manager • Product Delivery • Agile Operations
           </p>
           <p className="mt-4 text-xl font-medium text-blue-calm sm:text-2xl">
-            Cross-functional problem solver for product teams that need clarity,
-            momentum, and measurable delivery.
+            Project/Product Manager focused on turning ambiguous business needs
+            into successful product launches through stakeholder alignment, MVP
+            prioritisation, and disciplined execution.
           </p>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-muted">
-            I bridge the gap between business data, stakeholder requirements,
-            and engineering execution by turning ambiguous needs into scoped
-            MVPs, prioritized backlogs, clear user stories, and launch-ready
-            delivery plans.
+            I help teams transform unclear business challenges into launch-ready
+            products by aligning stakeholders, prioritising customer value, and
+            guiding delivery teams toward measurable outcomes.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             {badges.map((badge) => (

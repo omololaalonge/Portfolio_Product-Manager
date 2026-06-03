@@ -1,4 +1,4 @@
-const metrics = [
+const rollingStoneMetrics = [
   { label: "Role", detail: "Project/Product Manager" },
   { label: "Timeline", detail: "Dec 2025 - Feb 2026" },
   { label: "Tools Used", detail: "Jira, Confluence, Figma, Slack, GitHub" },
@@ -9,125 +9,103 @@ const metrics = [
   },
 ];
 
-const challenges = [
+const productDecisions = [
   {
-    title: "Scope Creep",
-    body: "Feature lists were expanding without clear prioritization or validation against launch goals.",
+    decision: "Reduce launch scope to a strict MVP.",
+    reason:
+      "Customer value was concentrated in content discovery and article consumption.",
+    tradeOff: "Deferred non-essential features to protect launch readiness.",
+    outcome:
+      "Maintained the launch timeline while preserving the core user experience.",
   },
   {
-    title: "Critical Defects",
-    body: "Essential responsive layout elements were broken across mobile and desktop views, threatening brand credibility.",
-  },
-  {
-    title: "Delivery Bottleneck",
-    body: "The primary developer was consistently blocking progress, requiring immediate intervention to safeguard the launch timeline.",
+    decision: "Transition away from an external development dependency.",
+    reason: "Delivery confidence had become too low.",
+    tradeOff:
+      "Replanned the delivery path quickly while protecting codebase access and handover continuity.",
+    outcome: "Reduced delivery risk and improved execution visibility.",
   },
 ];
 
-const framework = [
+const deliveryFramework = [
   {
     phase: "Week 1",
-    title: "Backlog Triage & Defect Audit",
-    body: "Audited all outstanding developer tickets, migrated messy bug sheets into a centralized Jira backlog, and categorized issues into launch-critical defects and post-launch enhancements.",
+    title: "Backlog Triage & Launch Readiness",
+    body: "Created a single source of truth for launch readiness, improving prioritisation and reducing delivery uncertainty.",
   },
   {
     phase: "Week 2",
     title: "Stakeholder Realignment",
-    body: "Presented a transparent, data-backed roadmap to technical stakeholders and management, aligning expectations around MVP scope and launch boundaries.",
+    body: "Aligned stakeholders around a realistic MVP scope, preventing further scope expansion and protecting the launch date.",
   },
   {
     phase: "Week 2",
-    title: "Offboarding & Vendor Transition",
-    body: "Mitigated delivery risk by coordinating backend access revocation, documenting the technical state, and pivoting to an internal delivery pipeline.",
+    title: "Vendor Transition",
+    body: "Mitigated delivery risk by coordinating access changes, documenting the technical state, and pivoting to an internal delivery pipeline.",
   },
   {
     phase: "Weeks 3-4",
-    title: "Cross-Functional QA & Sprint to Launch",
-    body: "Led daily syncs focused on high-priority layout bugs and partnered with QA and UI/UX designers to validate responsiveness across key viewports.",
+    title: "Launch Cadence",
+    body: "Established a focused launch cadence that accelerated defect resolution across engineering, QA, and design teams.",
   },
 ];
 
-const pillars = [
+const managementPillars = [
   {
-    title: "Ruthless Backlog Management",
-    body: "Replaced arbitrary task tracking with a value-driven backlog. Technical bugs were mapped to user impact, so mobile article-readability issues were prioritized over lower-value cosmetic changes.",
+    title: "Prioritisation Discipline",
+    body: "Mapped defects and feature requests to user impact, ensuring engineering effort focused on article readability, content discovery, and launch-critical stability.",
   },
   {
-    title: "High-Stakes Stakeholder Alignment",
-    body: "Served as the single point of truth between executive leadership and technical delivery realities, giving clear status updates on feature readiness, risks, and trade-offs.",
+    title: "Stakeholder Alignment",
+    body: "Served as the single point of truth between leadership and technical teams, making risks, trade-offs, and readiness decisions clear.",
   },
   {
-    title: "Risk Mitigation & Technical Governance",
-    body: "Took decisive action when the external development partner could not meet requirements by securing repository access, documenting handover state, and redistributing engineering work.",
+    title: "Risk Management",
+    body: "Made difficult delivery decisions under time pressure while protecting product quality, team focus, and stakeholder confidence.",
   },
 ];
 
-const outcomes = [
+const rollingStoneOutcomes = [
   "Achieved a 100% on-time launch despite an emergency developer transition two weeks before deployment.",
-  "Closed dozens of critical front-end layout defects within the final 14-day sprint cycle.",
-  "Delivered a clean, prioritized V2 roadmap so the incoming engineering team could immediately begin post-launch optimization.",
+  "Resolved the majority of launch-critical defects before deployment, resulting in a stable launch experience across key devices and screen sizes.",
+  "Created a clear post-launch roadmap that enabled the engineering team to transition immediately into optimisation and enhancement work.",
+  "Demonstrated the ability to make difficult prioritisation decisions under time pressure while maintaining stakeholder confidence.",
 ];
 
-const supportingProjects = [
+const accountingCaseStudy = {
+  title: "Accounting Aggregation Software",
+  subtitle: "Featured Case Study",
+  challenge:
+    "Revenue reconciliation depended on manual processes across multiple platforms and data sources, making it difficult for finance stakeholders to maintain a trusted view of performance.",
+  approach:
+    "Partnered with finance and technical stakeholders to define requirements for a consolidated reporting platform, including revenue ingestion, source mapping, aggregation logic, reporting views, and edge-case handling.",
+  outcome:
+    "Improved visibility into revenue performance across multiple distribution sources and reduced reliance on manual reconciliation activities.",
+  details: [
+    "Clarified finance pain points and converted them into delivery-ready platform requirements.",
+    "Defined workflows for data ingestion, source mapping, aggregation, and reporting outputs.",
+    "Aligned finance and engineering stakeholders around priorities for each iteration.",
+  ],
+};
+
+const additionalProjects = [
   {
     title: "FLAVA Artist Promotion Platform",
-    subtitle: "Product Delivery Support",
-    context:
-      "Digital platform enabling artists to share music across multiple streaming services through a unified fan link.",
-    goal:
-      "Provide artists with a single, easy-to-share link that aggregates major streaming platforms and improves fan engagement and track discovery.",
-    role:
-      "Project/Product Manager working with a remote development team and music business stakeholders.",
-    responsibilities: [
-      "Captured and clarified business requirements from artist relations and marketing teams, translating them into structured product features and functional specifications for developers.",
-      "Helped break high-level platform goals into prioritized feature sets, focusing on core flows such as artist onboarding, fan-link generation, and basic performance metrics.",
-      "Collaborated with developers to refine user stories, resolve ambiguity, and ensure UI and UX decisions aligned with artist and fan expectations.",
-      "Supported coordination of release milestones, documenting changes and communicating updates to non-technical stakeholders.",
-    ],
-    outcomes: [
-      "Delivered a usable fan-link platform that simplified how artists share their music and created a more consistent promotion experience across channels.",
-      "Improved alignment between business and technical teams, reducing back-and-forth on requirements and keeping the team focused on high-value features in early releases.",
-    ],
+    challenge:
+      "Artists needed a simpler way to promote music across multiple streaming platforms.",
+    approach:
+      "Worked with stakeholders and developers to define an MVP focused on onboarding, fan-link generation, and performance visibility.",
+    outcome:
+      "Supported delivery of a unified music-sharing experience that simplified promotion and improved consistency across artist marketing channels.",
   },
   {
     title: "ADM Challenge Website",
-    subtitle: "Digital Competition Platform",
-    context:
-      "Web platform for running music competitions, managing artist submissions, and enabling audience engagement.",
-    goal:
-      "Provide a central hub where artists can submit entries, fans can discover participants, and organizers can manage competition workflows and engagement.",
-    role:
-      "Product Requirements Coordinator / Product Delivery Support within a remote, cross-functional team.",
-    responsibilities: [
-      "Gathered and structured requirements for submission flows, eligibility rules, voting or engagement mechanisms, and admin review features.",
-      "Partnered with developers to define functional features, acceptance criteria, and edge cases around artist registration, content upload, and basic moderation.",
-      "Documented platform behaviours and supported stakeholders with clear explanations of what each release would include.",
-      "Helped prioritize MVP features to ensure the first launch covered essential competition workflows before adding advanced functionality.",
-    ],
-    outcomes: [
-      "Contributed to a competition site that simplified artist submissions and made it easier for organizers to run and monitor campaigns.",
-      "Reduced confusion among stakeholders through clearer documentation and communication, supporting smoother scope and timeline decisions.",
-    ],
-  },
-  {
-    title: "Accounting Aggregation Software",
-    subtitle: "Internal Financial Tool",
-    context:
-      "Internal tool to reconcile revenue data from multiple music distribution sources and improve financial visibility.",
-    goal:
-      "Replace manual reconciliation with a more reliable system that consolidates revenue streams from different distributors and platforms into a single financial view.",
-    role:
-      "Product Delivery Support / IT Project Manager working with finance and technical teams.",
-    responsibilities: [
-      "Worked with finance stakeholders to understand reconciliation pain points, required data fields, and reporting needs.",
-      "Supported definition of functional requirements for data ingestion, mapping of revenue sources, and aggregation and reporting features.",
-      "Helped document workflows and edge cases, giving developers clear guidance on expected system behaviours.",
-      "Facilitated communication between finance and development teams, clarifying questions and aligning on priorities for each iteration.",
-    ],
-    outcomes: [
-      "Supported delivery of a tool that improved visibility into revenue across multiple distribution sources and reduced manual tracking effort.",
-      "Helped lay the foundation for more accurate, timely financial reporting with more trusted consolidated figures.",
-    ],
+    challenge:
+      "Competition management activities were fragmented across multiple processes.",
+    approach:
+      "Helped define an MVP focused on artist submissions, moderation, and audience engagement.",
+    outcome:
+      "Supported delivery of a centralised platform that simplified competition administration and participant management.",
   },
 ];
 
@@ -137,7 +115,7 @@ export default function Projects() {
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
         <p className="section-kicker">Featured Case Study</p>
         <h2 className="section-title mt-3">
-          Delivering Under Pressure - The Rolling Stone Africa Website Revamp
+          Saving a High-Risk Product Launch Through MVP Prioritisation and Stakeholder Alignment
         </h2>
 
         <article className="card mt-10 overflow-hidden">
@@ -145,10 +123,10 @@ export default function Projects() {
             <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
               <div>
                 <p className="text-sm font-semibold uppercase tracking-[0.18em] text-blue-calm">
-                  Case Study
+                  Rolling Stone Africa Website Revamp
                 </p>
                 <h3 className="mt-3 text-2xl font-semibold text-ink sm:text-3xl">
-                  Rolling Stone Africa Website Revamp
+                  Delivering a stable MVP under pressure
                 </h3>
                 <p className="mt-5 leading-8 text-muted">
                   When launching a digital footprint for an iconic global media
@@ -158,10 +136,10 @@ export default function Projects() {
                   unmapped user interface defects.
                 </p>
                 <p className="mt-4 leading-8 text-muted">
-                  Stepping into a hybrid Project/Product Manager and Delivery role, I took
-                  ownership of the unstable codebase, triaged a chaotic backlog,
-                  managed a high-stakes engineering transition, and drove the
-                  product to a successful MVP launch.
+                  Stepping into a hybrid project, product, and delivery role, I
+                  took control of the unstable delivery environment, triaged a
+                  chaotic backlog, managed a high-stakes engineering transition,
+                  and helped drive the product to a successful MVP launch.
                 </p>
               </div>
 
@@ -172,7 +150,7 @@ export default function Projects() {
                       Rolling Stone Africa case study key metrics
                     </caption>
                     <tbody className="divide-y divide-line">
-                      {metrics.map((metric) => (
+                      {rollingStoneMetrics.map((metric) => (
                         <tr key={metric.label}>
                           <th className="w-36 bg-blue-soft/40 px-4 py-4 font-semibold text-ink">
                             {metric.label}
@@ -190,43 +168,50 @@ export default function Projects() {
           </div>
 
           <div className="space-y-10 p-6 sm:p-8">
-            <section aria-labelledby="challenge-heading">
-              <h3 id="challenge-heading" className="text-xl font-semibold text-ink">
-                The Challenge
+            <section aria-labelledby="business-problem-heading">
+              <h3 id="business-problem-heading" className="text-xl font-semibold text-ink">
+                Business Problem
               </h3>
               <p className="mt-3 max-w-4xl leading-8 text-muted">
-                The project was trapped in a common delivery cycle: an
-                approaching launch deadline, a growing list of critical visual
-                and functional bugs, and an external development resource unable
-                to deliver on core technical specifications.
+                Two weeks before launch, the project faced critical delivery
+                risk caused by unresolved defects, scope expansion, and
+                dependency on an underperforming external development partner.
               </p>
-              <div className="mt-6 grid gap-4 md:grid-cols-3">
-                {challenges.map((challenge) => (
-                  <div
-                    key={challenge.title}
-                    className="rounded-lg border border-line bg-page p-5"
-                  >
-                    <h4 className="font-semibold text-ink">{challenge.title}</h4>
-                    <p className="mt-2 text-sm leading-7 text-muted">
-                      {challenge.body}
-                    </p>
+            </section>
+
+            <section aria-labelledby="decisions-heading">
+              <h3 id="decisions-heading" className="text-xl font-semibold text-ink">
+                Key Product Decisions
+              </h3>
+              <div className="mt-6 grid gap-4 lg:grid-cols-2">
+                {productDecisions.map((item) => (
+                  <div key={item.decision} className="rounded-lg border border-line bg-page p-5">
+                    <h4 className="font-semibold text-ink">{item.decision}</h4>
+                    <dl className="mt-4 space-y-3 text-sm leading-7 text-muted">
+                      <div>
+                        <dt className="font-semibold text-ink">Reason</dt>
+                        <dd>{item.reason}</dd>
+                      </div>
+                      <div>
+                        <dt className="font-semibold text-ink">Trade-off</dt>
+                        <dd>{item.tradeOff}</dd>
+                      </div>
+                      <div>
+                        <dt className="font-semibold text-ink">Outcome</dt>
+                        <dd>{item.outcome}</dd>
+                      </div>
+                    </dl>
                   </div>
                 ))}
               </div>
             </section>
 
-            <section aria-labelledby="strategy-heading">
-              <h3 id="strategy-heading" className="text-xl font-semibold text-ink">
-                Product Strategy: Defining the Launch MVP
+            <section aria-labelledby="framework-heading">
+              <h3 id="framework-heading" className="text-xl font-semibold text-ink">
+                Delivery Framework
               </h3>
-              <p className="mt-3 max-w-4xl leading-8 text-muted">
-                To save the launch, I shifted the team from an expansive feature
-                set to a strict MVP model: if a feature did not directly impact
-                a reader&apos;s ability to consume content or navigate the core
-                site on day one, it moved to V2.
-              </p>
               <div className="mt-6 grid gap-4 lg:grid-cols-2">
-                {framework.map((item) => (
+                {deliveryFramework.map((item) => (
                   <div
                     key={`${item.phase}-${item.title}`}
                     className="rounded-lg border border-line bg-page p-5"
@@ -241,12 +226,12 @@ export default function Projects() {
               </div>
             </section>
 
-            <section aria-labelledby="pillars-heading">
-              <h3 id="pillars-heading" className="text-xl font-semibold text-ink">
+            <section aria-labelledby="management-pillars-heading">
+              <h3 id="management-pillars-heading" className="text-xl font-semibold text-ink">
                 Key Project/Product Management Pillars
               </h3>
               <div className="mt-6 grid gap-4 lg:grid-cols-3">
-                {pillars.map((pillar) => (
+                {managementPillars.map((pillar) => (
                   <div key={pillar.title} className="rounded-lg border border-line p-5">
                     <h4 className="font-semibold text-ink">{pillar.title}</h4>
                     <p className="mt-2 text-sm leading-7 text-muted">{pillar.body}</p>
@@ -265,13 +250,13 @@ export default function Projects() {
                 major devices.
               </blockquote>
               <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-7 text-muted">
-                {outcomes.map((outcome) => (
+                {rollingStoneOutcomes.map((outcome) => (
                   <li key={outcome}>{outcome}</li>
                 ))}
               </ul>
               <p className="mt-5 rounded-lg bg-page p-5 text-sm italic leading-7 text-muted">
                 Key learning: successful product delivery is not about launching
-                with every feature intact. It is about prioritizing user
+                with every feature intact. It is about prioritising user
                 experience, aligning stakeholders with evidence, and making hard
                 operational choices to hit a strategic objective.
               </p>
@@ -279,55 +264,60 @@ export default function Projects() {
           </div>
         </article>
 
+        <article className="card mt-10 p-6 sm:p-8">
+          <p className="section-kicker">{accountingCaseStudy.subtitle}</p>
+          <h3 className="mt-3 text-2xl font-semibold text-ink">
+            {accountingCaseStudy.title}
+          </h3>
+          <div className="mt-6 grid gap-6 lg:grid-cols-3">
+            <div>
+              <h4 className="font-semibold text-ink">Challenge</h4>
+              <p className="mt-2 text-sm leading-7 text-muted">
+                {accountingCaseStudy.challenge}
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-ink">Approach</h4>
+              <p className="mt-2 text-sm leading-7 text-muted">
+                {accountingCaseStudy.approach}
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-ink">Outcome</h4>
+              <p className="mt-2 text-sm leading-7 text-muted">
+                {accountingCaseStudy.outcome}
+              </p>
+            </div>
+          </div>
+          <ul className="mt-6 list-disc space-y-2 pl-5 text-sm leading-7 text-muted">
+            {accountingCaseStudy.details.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </article>
+
         <aside className="mt-10">
           <h3 className="text-xl font-semibold text-ink">
-            Additional Product Delivery Projects
+            Additional Product Delivery Experience
           </h3>
-          <div className="mt-5 space-y-6">
-            {supportingProjects.map((project) => (
-              <article key={project.title} className="card p-6 sm:p-8">
-                <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+          <div className="mt-5 grid gap-5 lg:grid-cols-2">
+            {additionalProjects.map((project) => (
+              <article key={project.title} className="card p-6">
+                <h4 className="text-lg font-semibold text-ink">{project.title}</h4>
+                <dl className="mt-5 space-y-4 text-sm leading-7 text-muted">
                   <div>
-                    <h4 className="text-xl font-semibold text-ink">
-                      {project.title}
-                    </h4>
-                    <p className="mt-1 text-sm font-semibold text-blue-calm">
-                      {project.subtitle}
-                    </p>
-                  </div>
-                  <span className="w-fit rounded-full bg-purple-soft px-3 py-1 text-sm font-semibold text-purple-accent">
-                    {project.role}
-                  </span>
-                </div>
-
-                <div className="mt-6 grid gap-6 lg:grid-cols-3">
-                  <div>
-                    <h5 className="font-semibold text-ink">Context</h5>
-                    <p className="mt-2 text-sm leading-7 text-muted">
-                      {project.context}
-                    </p>
-                    <h5 className="mt-5 font-semibold text-ink">Goal</h5>
-                    <p className="mt-2 text-sm leading-7 text-muted">
-                      {project.goal}
-                    </p>
+                    <dt className="font-semibold text-ink">Challenge</dt>
+                    <dd>{project.challenge}</dd>
                   </div>
                   <div>
-                    <h5 className="font-semibold text-ink">Contributions</h5>
-                    <ul className="mt-2 list-disc space-y-2 pl-5 text-sm leading-7 text-muted">
-                      {project.responsibilities.map((item) => (
-                        <li key={item}>{item}</li>
-                      ))}
-                    </ul>
+                    <dt className="font-semibold text-ink">Approach</dt>
+                    <dd>{project.approach}</dd>
                   </div>
                   <div>
-                    <h5 className="font-semibold text-ink">Outcomes</h5>
-                    <ul className="mt-2 list-disc space-y-2 pl-5 text-sm leading-7 text-muted">
-                      {project.outcomes.map((item) => (
-                        <li key={item}>{item}</li>
-                      ))}
-                    </ul>
+                    <dt className="font-semibold text-ink">Outcome</dt>
+                    <dd>{project.outcome}</dd>
                   </div>
-                </div>
+                </dl>
               </article>
             ))}
           </div>
