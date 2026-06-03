@@ -38,7 +38,7 @@ export default function Experience() {
     <section id="experience" className="border-y border-line bg-page">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
         <p className="section-kicker">Experience</p>
-        <h2 className="section-title mt-3">Ownership verbs, delivery outcomes, and product-facing judgment.</h2>
+        <h2 className="section-title mt-3">Product delivery, stakeholder alignment, and data-informed operations.</h2>
         <div className="mt-10 space-y-5">
           {roles.map((role) => (
             <article key={`${role.company}-${role.meta}`} className="card p-6 sm:p-8">
