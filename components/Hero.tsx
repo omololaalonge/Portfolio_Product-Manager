@@ -14,7 +14,7 @@ export default function Hero() {
           <h1 className="mt-4 text-5xl font-semibold tracking-normal text-ink sm:text-6xl lg:text-7xl">
             Omolola Alonge
           </h1>
-          <p className="mt-3 text-lg font-semibold text-white sm:text-xl lg:text-2xl">
+          <p className="mt-3 text-lg font-semibold text-blue-calm dark:text-white sm:text-xl lg:text-2xl">
             Junior Product Owner • Product Delivery • Agile Operations
           </p>
           <p className="mt-4 text-xl font-medium text-blue-calm sm:text-2xl">
