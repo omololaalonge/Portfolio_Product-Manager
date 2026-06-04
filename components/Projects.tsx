@@ -113,12 +113,9 @@ export default function Projects() {
   return (
     <section id="projects" className="bg-surface">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
-        <p className="section-kicker">Featured Case Study</p>
-        <h2 className="section-title mt-3">
-          Saving a High-Risk Product Launch Through MVP Prioritisation and Stakeholder Alignment
-        </h2>
+        <h2 className="section-title">Projects</h2>
 
-        <article className="card mt-10 overflow-hidden">
+        <article className="card mt-8 overflow-hidden">
           <div className="border-b border-line bg-page p-6 sm:p-8">
             <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
               <div>
