@@ -32,7 +32,6 @@ export default function Skills() {
     <section id="skills" className="border-y border-line bg-page">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
         <p className="section-kicker">Skills</p>
-        <h2 className="section-title mt-3">A tighter product operations toolkit.</h2>
         <p className="mt-4 max-w-3xl leading-8 text-muted">
           Applied across product launches, stakeholder alignment initiatives,
           workflow optimisation projects, and data-driven decision-making
