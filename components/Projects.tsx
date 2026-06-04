@@ -113,7 +113,7 @@ export default function Projects() {
   return (
     <section id="projects" className="bg-surface">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:py-20">
-        <h2 className="section-title">Projects</h2>
+        <p className="section-kicker">Projects</p>
 
         <article className="card mt-8 overflow-hidden">
           <div className="border-b border-line bg-page p-6 sm:p-8">
