@@ -4,7 +4,7 @@ export default function About() {
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-16 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:py-20">
         <div>
           <p className="section-kicker">About</p>
-          <h2 className="section-title mt-3">Delivering product value and client satisfaction.</h2>
+          <h2 className="section-title mt-3">Turning uncertainty into focused product delivery.</h2>
         </div>
         <div className="space-y-5 text-base leading-8 text-muted">
           <p>
