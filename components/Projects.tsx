@@ -123,7 +123,7 @@ export default function Projects() {
                   Rolling Stone Africa Website Revamp
                 </p>
                 <h3 className="mt-3 text-2xl font-semibold text-ink sm:text-3xl">
-                  Delivering a stable MVP under pressure
+                  Saving a High-Risk Product Launch Through MVP Prioritisation and Stakeholder Alignment
                 </h3>
                 <p className="mt-5 leading-8 text-muted">
                   When launching a digital footprint for an iconic global media
